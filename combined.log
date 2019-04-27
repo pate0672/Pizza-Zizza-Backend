@@ -1,0 +1,42 @@
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"isStaff":false,"_id":"5cc223a815ca221b6bf5fd95"}
+{"isStaff":true,"_id":"5cc223e415ca221b6bf5fd96","firstName":"Snehal","lastName":"Gondaliya","email":"snehal123@gmail.com"}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"body":{"name":"HotBananaPeper","price":"2","quantity":"1","isGlutenFree":"true","imageUrl":"test.jpeg","categories":"vegitarian"},"level":"info","service":"user-service"}
+{"attributes":{"name":"HotBananaPeper","price":"2","quantity":"1","isGlutenFree":"true","imageUrl":"test.jpeg","categories":"vegitarian"},"level":"info","service":"user-service"}
+{"sanitizedBody":{"name":"HotBananaPeper","price":"2","quantity":"1","isGlutenFree":"true","imageUrl":"test.jpeg","categories":"vegitarian"},"level":"info","service":"user-service"}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}
+{"level":"info","message":"Express is listening on port 3030..."}
+{"level":"info","message":"Connected to MongoDb..."}

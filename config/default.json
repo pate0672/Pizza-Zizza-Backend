@@ -1,0 +1,11 @@
+{
+    "name": "pizzaApiFinale",
+    "db": {
+      "host": "localhost",
+      "port": "27017",
+      "dbName": "mad9124-gond0017"
+    },
+    "jwt": {
+      "saltRounds": 14
+    }
+  }
