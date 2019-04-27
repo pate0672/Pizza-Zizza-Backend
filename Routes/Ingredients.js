@@ -30,6 +30,8 @@ router.get('/', async(req, res) => {
 
   })
 
+
+
 })
 
 
@@ -88,6 +90,8 @@ router.get('/:id', async (req, res) =>{
 
         const ingredient = await Ingredient.findById(req.params.id)
 
+
+        if (!ingredient) throw new Error('Resource not found')
 
         res.send({
 
@@ -276,7 +280,7 @@ function sendResourceNotFound(req,res)
                     title : 'Return does not exist',
 
 
-                    description : `We could not find a course with id : ${req.params.id}`\
+                    description : `We could not find a ingrediants with id : ${req.params.id}`
 
 
                 }
