@@ -1,26 +1,21 @@
-MAD9124 Mobile API Development
+# Pizza Zizza Shop Backend
 
-# Assignment 3 - JWT Authentication
+Pizza Zizza is an online interface with backend to create a dynamic user experience and order pizza's from a fictious brand called "Pizza Zizza". Users can order, add ingredients, edit ingerdients and delete.
 
-## The brief
+[View Frontend](https://github.com/gond0017/pizzaFrontend)
 
-This is the third of three take home assignments related to building a backend web service to support a simple class list application called _cListR_.
 
-In the previous assignments you built the base for the _cListR_ RESTful API using Node.js, the Express framework and MongoDB. For this assignment you will enhance that foundation with JWT based authentication.
+## Backend code Features
 
-In addition to correctly implementing all of the requirements from the previous assignment. The application will implement the following.
-
-## Core Requirements
-
-1. Create a new `/auth` router module that will support
+1. Created a new `/auth` router module that will support
 
 - creating new users
 - authenticating a user
 - retrieving the currently logged-in user
 
-Make sure to redact the user's password.
+Redacted the user's password.
 
-2. The user schema should have the following properties:
+2. The user schema has the following properties:
    | Property | Type | Required | Max Length | Default |
    | :-------- | :----- | :------- | ---------: | -------: |
    | firstName | String | true | 64 | |
@@ -29,11 +24,11 @@ Make sure to redact the user's password.
    | password | String | true | 70 | |
    | isAdmin | Boolean | true | | false|
 
-3. All API routes for the _students_ and _courses_ resource paths should only be accessible to authenticated users.
+3. All API routes for the _Pizza_ and _Ingredients_ resource paths are only be accessible to authenticated users.
 
-4. All `POST`, `PUT`, `PATCH`, and `DELETE` routes for both the _students_ and _courses_ resource paths should be limited to authenticated users with the `isAdmin` flag set to true.
+4. All `POST`, `PUT`, `PATCH`, and `DELETE` routes for both the _Pizza_ and _Ingredients_ resource paths are limited to authenticated users with the `isAdmin` flag set to true.
 
-5. Record each login attempt in an `authentication_attempts` collection in MongoDB. The properties of each attempt document should include:
+5. Recorded each login attempt in an `authentication_attempts` collection in MongoDB. The properties of each attempt document include:
 
 | Property   | Type    | Required | Max Length |
 | :--------- | :------ | :------- | ---------: |
@@ -42,9 +37,11 @@ Make sure to redact the user's password.
 | didSucceed | Boolean | true     |            |
 | createdAt  | Date    | true     |            |
 
-DO NOT store the password or the JWT.
+WE DO NOT store the password or the JWT.
 
-6. Ensure that you write clean and readable code. Pay attention to:
+6. Clean and readable code. 
+
+Addtional features:
 
 - no runtime errors
 - consistent 2 space indentation
@@ -52,13 +49,47 @@ DO NOT store the password or the JWT.
 - semantically descriptive names for variables and functions
 - well organized project folder structure
 - properly formatted `package.json` file
-  - correct project name
-  - your author details
+  - proper project name
+  - author details
 
-## Logistics
+## Use
 
-- Clone this repo to your latptop.
-- Build the project on your laptop.
-- Test each route with Postman.
-- Make git commits as you complete each requirement
-- When everything is complete, push the final commit back up to GitHub and submit the GitHub repo's URL on Birghtspace.
+- Clone this repo or download zip to your latptop/PC.
+- You can test each route with Postman.
+
+# Frontend Features
+
+### Interface
+1. Display list of pizza's (overall and per pizza truck)
+2. Update inventory item values when pizza is edited
+3. Checkout page 
+4. Edit ingredeints page
+5. Sign and Sign Up page
+
+### Functionality
+1. User authentication (Users can Sign In, Sign up) 
+2. Users can add multiple pizza's and view list
+3. Users can add multiple ingredients (different ingredients have different price)
+4. User can edit pizza or delete ingredeints
+5. User can view total price of pizza based on ingredients
+
+### Additional Features
+ 1. Data is stored on MongoDB database
+ 2. Users can reset password
+ 3. Loader to display loading
+ 4. Easy navigation
+
+
+# Technologies Implemented
+
+### 1. JavaScript
+### 2. Node JS
+### 3. HTML5
+### 4. CSS#
+### 5. MongoDB
+### 6. Pair Programming
+
+
+# Authors
+### 1. [Rishi Patel (Myself)](https://github.com/pate0672)
+### 2. [Snehal Gondaliya](https://github.com/gond0017)
